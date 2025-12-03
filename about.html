@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabita Bookstore</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+
+<!-- MOBILE HAMBURGER (same as home page) -->
+<div class="mobile-menu-icon" onclick="toggleMenu()">
+    <i class="fas fa-bars"></i>
+</div>
+
+<!-- NAVIGATION MENU -->
+<div class="top-nav" id="navLinks">
+    <a href="home.html"><i class="fas fa-home"></i> Home</a>
+    <a href="about.html"><i class="fas fa-user"></i> About Us</a>
+    <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+</div>
+
+<!-- ABOUT SECTION -->
+<section class="about-section">
+    <div class="text-box">
+        <h1>ABOUT <br> KABITA'S STATIONERY</h1>
+        <p>Established in 2062-12-22.</p>
+        <p>Kabita's Stationery has been serving the community with high-quality stationery, arts & crafts supplies, and personalized services for years. Our store offers a wide variety of products including greeting cards, pens, notebooks, sketchbooks, painting supplies, school essentials, and much more. We pride ourselves on providing not just products, but a creative space for students, artists, and professionals alike. Our dedicated team ensures every customer finds exactly what they need, whether it’s for school, office, or personal projects. At Kabita's Stationery, we bring creativity, convenience, and quality together under one roof.</p>
+    </div>
+
+    <div class="image-box">
+        <img src="9.jpeg" alt="Store Image">
+    </div>
+</section>
+
+<!-- OFFER SECTION -->
+<section class="offer-section">
+    <h1 class="center-title">WHAT WE OFFER</h1>
+    <div class="offer-container">
+        <div class="offer-image">
+            <img src="2.jpeg" alt="Store Interior">
+        </div>
+        <div class="offer-cards">
+            <div class="card">
+                <h3>STATIONERY</h3>
+                <p>Greeting cards<br>Pens and pencils<br>Instrument boxes<br>Journals<br>Exercise books<br>School supplies<br>and much more</p>
+            </div>
+            <div class="card">
+                <h3>ARTS & CRAFTS</h3>
+                <p>Paint<br>Sketchbooks<br>Drawing utensils<br>Kids activities<br>Gifts<br>Gift wrap<br>Coloring books</p>
+            </div>
+            <div class="card">
+                <h3>SERVICE</h3>
+                <p>Printing(black and white/color)<br>Photocopy<br>Lamination etc....</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+ <div class="image-row">
+        <img src="4.jpeg" alt="Image 1">
+        <img src="5.jpeg" alt="Image 2">
+        <img src="6.jpeg" alt="Image 3">
+         <img src="8.jpeg" alt="Image 3">
+        <img src="7.jpeg" alt="Image 4">
+    </div>
+
+<!-- SCRIPT FOR MENU -->
+<script>
+function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("show");
+}
+</script>
+
+</body>
+</html>

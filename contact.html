@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Kabita Stationery</title>
+    <link rel="stylesheet" href="style3.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+
+<!-- MOBILE HAMBURGER -->
+<div class="mobile-menu-icon" onclick="toggleMenu()">
+    <i class="fas fa-bars"></i>
+</div>
+
+<!-- NAVIGATION MENU -->
+<div class="top-nav" id="navLinks">
+    <a href="home.html"><i class="fas fa-home"></i> Home</a>
+    <a href="about.html"><i class="fas fa-user"></i> About Us</a>
+    <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+</div>
+
+<!-- CONTACT SECTION -->
+<section class="contact-section">
+    <h2>Contact Us</h2>
+    <p class="intro">We’d love to hear from you! Send us a message or visit our store.</p>
+
+    <div class="contact-container">
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p><i class="fas fa-map-marker-alt"></i>001 Lokanthali, Kathmandu, Nepal</p>
+            <p><i class="fas fa-phone"></i> +977-9841445097</p>
+            <a href="mailto:kritamshrestha3@gmail.com"><i class="fas fa-envelope"></i> kritamshrestha3@gmail.com</a>
+            <h3>Working Hours</h3>
+            <p>Sun - Sat: 6:00 AM – 8:00 PM</p>
+
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/gautam.shrestha.948"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/gautamshrestha29/"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <!-- Google Map -->
+            <h3>Our Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!3m2!1sen!2snp!4v1764776075558!5m2!1sen!2snp!6m8!1m7!1sKEzfFb7pVoRXuI24GgheoA!2m2!1d27.67446870181156!2d85.36001842647616!3f55.75388452194052!4f54.3280574581828!5f0.4000000000000002" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="text" placeholder="Subject" required>
+                <textarea placeholder="Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+    </div>
+</section>
+
+<!-- SCRIPT FOR MENU -->
+<script>
+function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("show");
+}
+</script>
+
+</body>
+</html>
